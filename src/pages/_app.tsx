@@ -1,4 +1,5 @@
 import { type AppType } from "next/app";
+import { MeshProvider } from "@meshsdk/react";
 import { Inter } from "next/font/google";
 
 import { api } from "~/utils/api";
@@ -11,9 +12,11 @@ const inter = Inter({
 });
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <main className={`font-sans ${inter.variable}`}>
-      <Component {...pageProps} />
-    </main>
+    <MeshProvider>
+      <main className={`font-sans ${inter.variable}`}>
+        <Component {...pageProps} />
+      </main>
+    </MeshProvider>
   );
 };
 
