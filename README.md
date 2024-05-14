@@ -13,6 +13,6 @@ In Mesh Living Coding Sessions in May 2024, we will build a demo front-end for [
 
 ### Next Steps
 - [x] Before next meeting on 2024-05-07: initial project repo with all dependencies (James)
-- [ ] Before next meeting on 2024-05-14: Learn syntax / design pattern for compiling parameterized validator directly in Aiken
-- [ ] On 2024-05-14: Build transactions (1) and (2)
+- [ ] Still need to create some boilerplate for apply parameters to a validator without using Lucid. Before next meeting on 2024-05-21 (?): Learn syntax / design pattern for compiling parameterized validator directly in Aiken
+- [ ] On 2024-05-21: Build transactions (1) and (2)
   - Might need to mint an Admin token before that - James will have one ready
